@@ -7,8 +7,8 @@
     left: calc(50% - 250px);
     top: calc(50% - 200px);
     overflow: hidden;
-    background-image: url("../img/campo.jpg");
-    background-size: 100%;
+    background-image: url("../img/fundoreal.jpg");
+    background-size: 130%;
     background-repeat: no-repeat;
     opacity: 0.8;
 }
@@ -21,27 +21,32 @@
     z-index: 999;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/cesta.png");
-    background-size: 120px;
+    background-image: url("../img/cestareal.png");
+    background-size: 90px;
+    z-index: 999;
 }
 
 #element {
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../img/bola.png");
+    background-image: url("../img/bolareal.png");
     background-size: 60px;
     width: 100px;
     height: 70px;
     position: absolute;
     animation: rotating 4s linear infinite;
     transition: 0.5s;
-    z-index: 999;
+    z-index: 9;
 }
 
 #placar {
     position: absolute;
     right: 10px;
     top: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.507);
+   
 
 
 }
@@ -51,6 +56,10 @@
     top: 10px;
     left: 10px;
     cursor: pointer;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.507);
+
    
 }
 
